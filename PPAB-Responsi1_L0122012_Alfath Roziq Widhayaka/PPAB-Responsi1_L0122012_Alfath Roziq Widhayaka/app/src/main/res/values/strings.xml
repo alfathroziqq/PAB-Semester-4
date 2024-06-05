@@ -1,0 +1,131 @@
+<resources>
+    <!--  MAIN  -->
+    <string name="app_name">RESPONSI1PAB</string>
+    <string name="title_home">Home</string>
+    <string name="title_faculty">Fakultas</string>\
+    <string name="title_facility">Fasilitas</string>
+    <string name="title_profile">Profil</string>
+
+
+    <!--  HOME  -->
+    <string name="header_home">UNS SOLO</string>
+    <string name="button_rektor">Data Rektor UNS</string>
+    <string name="desc_photo_rektor">Deskripsi</string>
+    <string name="header_rektor">Rektor UNS</string>
+    <string name="rektor_name">Nama Rektor</string>
+    <string name="description_rektor">Deskripsi</string>
+    <string name="bio_home">Aplikasi UNS SOLO yang saya buat menyediakan informasi tentang rektor, fakultas, fasilitas, dan profil pribadi pengguna. Dengan aplikasi ini, user dapat dengan mudah mengakses berbagai informasi terkait universitas.</string>
+
+
+    <!--  FACULTY  -->
+    <string name="faculty_name">Nama Fakultas</string>
+    <string name="faculty_description">Deskripsi Fakultas</string>
+    <string name="faculty_descImage">Deskripsi Foto</string>
+
+    <string name="header_faculty">Daftar Fakultas di UNS</string>
+    <string name="imgFaculty">Image Faculty</string>
+    <string-array name="data_name">
+        <item>Fakultas Teknologi Informasi dan Sains Data</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Matematika dan Ilmu Pengetahuan Alam</item>
+        <item>Fakultas Pertanian</item>
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Ekonomi dan Bisnis</item>
+        <item>Fakultas Ilmu Sosial dan Politik</item>
+        <item>Fakultas Ilmu dan Budaya</item>
+        <item>Fakultas Keolahragaan</item>
+        <item>Fakultas Seni Rupa dan Desain</item>
+        <item>Fakultas Hukum</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item><![CDATA[Fakultas Teknologi Informasi dan Sains Data di UNS menawarkan pendidikan berkualitas tinggi dalam teknologi informasi dan analisis data untuk masa depan yang inovatif dan berkelanjutan.]]></item>
+        <item><![CDATA[Fakultas Teknik UNS menonjol dengan program-program studi teknik terdepan, menghasilkan lulusan yang siap berkontribusi dalam industri global dengan keunggulan dan inovasi.]]></item>
+        <item><![CDATA[Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) UNS adalah pusat pendidikan dan riset yang menawarkan beragam program dalam bidang matematika, fisika, kimia, biologi, dan ilmu terkait lainnya. ]]></item>
+        <item><![CDATA[Fakultas Pertanian Universitas Sebelas Maret (UNS) merupakan pusat akademik yang menawarkan program-program pendidikan dan penelitian di bidang pertanian, hortikultura, peternakan, dan ilmu-ilmu terkait.]]></item>
+        <item><![CDATA[Fakultas Kedokteran Universitas Sebelas Maret (UNS) adalah lembaga pendidikan tinggi yang unggul dalam pembelajaran medis, penelitian ilmiah, dan pelayanan kesehatan. Berkomitmen pada inovasi dan kualitas, Fakultas Kedokteran UNS melatih calon dokter dengan standar internasional.]]></item>
+        <item><![CDATA[Fakultas Ekonomi dan Bisnis Universitas Sebelas Maret (UNS) adalah lembaga pendidikan tinggi yang menyediakan program studi terkemuka dalam bidang ekonomi dan bisnis. Fakultas ini menawarkan kurikulum berkualitas.]]></item>
+        <item><![CDATA[Fakultas Ilmu Sosial dan Ilmu Politik Universitas Sebelas Maret (UNS) adalah lembaga pendidikan tinggi yang menawarkan beragam program studi terkait ilmu sosial dan politik, memberikan pengetahuan serta keterampilan untuk memahami dinamika sosial dan politik dalam konteks lokal maupun global.]]></item>
+        <item><![CDATA[Fakultas Ilmu Budaya di Universitas Sebelas Maret (UNS) merupakan lembaga akademik yang menawarkan beragam program studi dalam bidang humaniora dan budaya. Memadukan penelitian mendalam dengan pembelajaran kreatif untuk memahami warisan budaya global.]]></item>
+        <item><![CDATA[Fakultas Ilmu Budaya di Universitas Sebelas Maret (UNS) merupakan lembaga akademik yang menawarkan beragam program studi dalam bidang humaniora dan budaya. Memadukan penelitian mendalam dengan pembelajaran kreatif untuk memahami warisan budaya global.]]></item>
+        <item><![CDATA[Fakultas Seni Rupa dan Desain Universitas Sebelas Maret (UNS) merupakan pusat kreativitas dan inovasi dengan fokus pada pengembangan bakat seni dan desain melalui program-program berkualitas dan fasilitas modern.]]></item>
+        <item><![CDATA[Fakultas Hukum UNS adalah lembaga pendidikan tinggi di Universitas Sebelas Maret yang unggul dalam bidang ilmu hukum, menawarkan program studi berkualitas dengan fokus pada pembelajaran interaktif dan pengembangan profesionalisme.]]></item>
+    </string-array>
+
+    <integer-array name="data_img">
+        <item>@drawable/fatisda</item>
+        <item>@drawable/teknik</item>
+        <item>@drawable/fmipa</item>
+        <item>@drawable/fp</item>
+        <item>@drawable/fk</item>
+        <item>@drawable/feb</item>
+        <item>@drawable/fisip</item>
+        <item>@drawable/fib</item>
+        <item>@drawable/fkor</item>
+        <item>@drawable/fsrd</item>
+        <item>@drawable/fh</item>
+    </integer-array>
+
+
+    <!--  FACILITY SARANA -->
+    <string name="test_facility">Test</string>
+    <string name="tab_text_1">Sarana</string>
+    <string name="tab_text_2">Gedung</string>
+    <string name="description_sarana">descriptionSarana</string>
+    <string name="name_sarana">Nama Sarana</string>
+    <string name="description_text_sarana">Deskripsi Sarana</string>
+
+    <string-array name="data_name_sarana">
+        <item>Stadion</item>
+        <item>Bis</item>
+        <item>Wifi</item>
+        <item>Taman</item>
+        <item>Tempat Parkir</item>
+        <item>Mobil Listrik</item>
+        <item>Danau</item>
+    </string-array>
+
+    <integer-array name="data_img_sarana">
+        <item>@drawable/sarana_stadion</item>
+        <item>@drawable/sarana_bis</item>
+        <item>@drawable/sarana_wifi</item>
+        <item>@drawable/sarana_taman</item>
+        <item>@drawable/sarana_parkir</item>
+        <item>@drawable/sarana_listrik</item>
+        <item>@drawable/sarana_lake</item>
+    </integer-array>
+
+
+    <!--  FACILITY GEDUNG  -->
+    <string name="description_gedung">descriptionGedung</string>
+    <string name="name_gedung">Nama Gedung</string>
+    <string name="description_text_gedung">Deskripsi Gedung</string>
+    <string-array name="data_name_gedung">
+        <item>Gym</item>
+        <item>Asrama</item>
+        <item>Hotel</item>
+        <item>Tempat Ibadah</item>
+        <item>Kantin</item>
+        <item>Labora-torium</item>
+        <item>Medical Centre</item>
+        <item>Perpus-takaan</item>
+    </string-array>
+
+    <integer-array name="data_img_gedung">
+        <item>@drawable/gedung_gym</item>
+        <item>@drawable/gedung_asram</item>
+        <item>@drawable/gedung_hotel</item>
+        <item>@drawable/gedung_ibadah</item>
+        <item>@drawable/gedung_kantin</item>
+        <item>@drawable/gedung_lab</item>
+        <item>@drawable/gedung_medical</item>
+        <item>@drawable/gedung_perpus</item>
+    </integer-array>
+
+
+    <!--  PROFILE  -->
+    <string name="headerProfile">Hello Everyone, Im Alfath!</string>
+    <string name="descProfile">Description Photo</string>
+    <string name="profile_data">Data Profile</string>
+    <string name="share_button">Share</string>
+</resources>

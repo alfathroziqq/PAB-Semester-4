@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.l0122012.alfathroziq.responsi1pab.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_rektorFragment2"
+            app:destination="@id/rektorFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_faculty"
+        android:name="com.l0122012.alfathroziq.responsi1pab.ui.faculty.FacultyFragment"
+        android:label="@string/title_faculty"
+        tools:layout="@layout/fragment_faculty" />
+
+    <fragment
+        android:id="@+id/navigation_facility"
+        android:name="com.l0122012.alfathroziq.responsi1pab.ui.facility.FacilityFragment"
+        android:label="@string/title_facility"
+        tools:layout="@layout/fragment_facility" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.l0122012.alfathroziq.responsi1pab.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/rektorFragment2"
+        android:name="com.l0122012.alfathroziq.responsi1pab.ui.home.RektorFragment"
+        android:label="fragment_rektor"
+        tools:layout="@layout/fragment_rektor" />
+
+</navigation>

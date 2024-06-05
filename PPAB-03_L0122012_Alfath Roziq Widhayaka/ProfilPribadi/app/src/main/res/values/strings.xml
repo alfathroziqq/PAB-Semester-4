@@ -1,0 +1,18 @@
+<resources>
+<!--    Halaman 1  -->
+    <string name="app_name">ProfilPribadi</string>
+    <string name="profile_pribadi">PROFIL PRIBADI</string>
+    <string name="image_index">GambarIndex</string>
+    <string name="introduction_text">Halo, kenalin aku Alfath Roziq</string>
+    <string name="bio">Sebagai mahasiswa semester 4 Informatika di Universitas Sebelas Maret, aku bersemangat untuk mengeksplorasi dunia data dan konstruksi web dan aplikasi.</string>
+    <string name="profile">Profilku</string>
+    <string name="github">Github</string>
+    <string name="bg1">background1</string>
+
+<!--    Halaman 2  -->
+    <string name="data">Data Profile</string>
+    <string name="bioPage2">Aku suka coding setiap hari di kamarku dengan ngabisin waktu rata-rata 3 jam perhari. Aku suka makan ayam goreng dan mie dog dog</string>
+    <string name="share">Share</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="bg2">background2</string>
+</resources>

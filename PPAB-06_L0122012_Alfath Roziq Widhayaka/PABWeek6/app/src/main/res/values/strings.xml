@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorites</string>
+    <string name="title_profile">Account</string>
+    <string name="title_trending">Trending</string>
+    <string name="title_aboutTrending">About</string>
+    <string name="nameProfile">Alfath Roziq</string>
+    <string name="about_profile">alfathroziq94@gmail.com</string>
+    <string name="share_button">Share</string>
+    <string name="descPhotos">description</string>
+    <string name="musicName">Music Name</string>
+    <string name="musicDesc">Music Description</string>
+
+    <!--  HOME FRAGMENT  -->
+    <string name="hello_home_fragment">Welcome Back to Spotipi!</string>
+    <string name="to_nextHome">Top 2 Trending</string>
+    <string name="to_favorite">Favorite Music</string>
+    <string name="about_trending1">TRENDING NUMBER 1</string>
+    <string name="about_trending2">TRENDING NUMBER 2</string>
+    <string name="title_trending1">we cant be friends - ariana grande</string>
+    <string name="title_trending2">Kuingin Pisah - Nabila Taqiyyah</string>
+    <string name="about_detailFrag">Next Page</string>
+    <string name="about_homepage">TRENDING NOW!</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_singer">Singer</string>
+    <string name="category_duration">Category Duration</string>
+    <string name="category_description">Category Description</string>
+    <string name="descAlbum">Album</string>
+    <string name="descTrending">Djo-the critically acclaimed brainchild of multi-talented musician/actor Joe Keery - makes its long awaited return with the game-changing new album, DECIDE.</string>
+
+    <!--  FAVORITES FRAGMENT  -->
+    <string-array name="data_music">
+        <item>End of Beginning</item>
+        <item>drunk text</item>
+        <item>Peak of Love</item>
+        <item>Kita Bikin Romantis</item>
+        <item>Bunga Hati</item>
+        <item>Locked out of Heaven</item>
+        <item>To The Bone</item>
+        <item>One Of The Girls</item>
+        <item>Tanpa Tergesa</item>
+        <item>Tanggung Jawab</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item><![CDATA[Djo]]></item>
+        <item><![CDATA[Henry Moodie]]></item>
+        <item><![CDATA[Aldi Haqq]]></item>
+        <item><![CDATA[MALIQ & DEssentials]]></item>
+        <item><![CDATA[Salma Salsabil]]></item>
+        <item><![CDATA[Bruno Mars]]></item>
+        <item><![CDATA[Pamungkas]]></item>
+        <item><![CDATA[The Weeknd]]></item>
+        <item><![CDATA[Juicy Luicy]]></item>
+        <item><![CDATA[Juicy Luicy]]></item>
+    </string-array>
+
+    <integer-array name="data_img">
+        <item>@drawable/djo</item>
+        <item>@drawable/henry</item>
+        <item>@drawable/peak</item>
+        <item>@drawable/kitabikin</item>
+        <item>@drawable/bunga</item>
+        <item>@drawable/locked</item>
+        <item>@drawable/tothe</item>
+        <item>@drawable/oneof</item>
+        <item>@drawable/tanpa</item>
+        <item>@drawable/tanggung</item>
+    </integer-array>
+</resources>

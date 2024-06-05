@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">PABWeek7</string>
+    <string name="descriptionkucing">DescKucing</string>
+    <string name="descriptionanjing">DescAnjing</string>
+    <string name="cat_name">Nama Kucing</string>
+    <string name="dog_name">Nama Anjing</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_kucing">
+        <item>Kucing Anggora</item>
+        <item>Kucing Bengal</item>
+        <item>Kucing Kampung</item>
+        <item>Kucing Maine Coon</item>
+        <item>Kucing Munchkin</item>
+        <item>Kucing Persia</item>
+        <item>Kucing Ragdoll</item>
+        <item>Kucing Russian Blue</item>
+        <item>Kucing Siam</item>
+        <item>Kucing Sphynx</item>
+    </string-array>
+
+    <string-array name="desc_kucing">
+        <item><![CDATA[Kucing Anggora memiliki bulu panjang lembut dan mata besar indah, sangat ramah dan elegan.]]></item>
+        <item><![CDATA[Kucing Bengal memiliki corak belang unik dengan tubuh kekar dan mata tajam, cerdas dan lincah.]]></item>
+        <item><![CDATA[Kucing Kampung adalah kucing lokal Indonesia yang tangguh, ramah, dan mudah beradaptasi dengan lingkungan sekitar.]]></item>
+        <item><![CDATA[Kucing Maine Coon merupakan kucing terbesar dengan bulu lebat, ekor panjang, dan sifat penyayang serta ramah.]]></item>
+        <item><![CDATA[Kucing Munchkin memiliki tubuh kecil dengan kaki pendek yang imut, aktif dan penuh keceriaan.]]></item>
+        <item><![CDATA[Kucing Persia dikenal dengan bulu panjangnya yang lebat, wajah pesek yang manis, dan sifat yang tenang serta lembut.]]></item>
+        <item><![CDATA[Kucing Ragdoll memiliki bulu lembut dan tubuh besar, santai dan ramah, cocok untuk keluarga.]]></item>
+        <item><![CDATA[Kucing Russian Blue memiliki bulu abu-abu halus, mata hijau cerah, dan kepribadian yang tenang dan anggun.]]></item>
+        <item><![CDATA[Kucing Siam memiliki tubuh yang langsing dengan warna tubuh yang kontras, cerdas dan menyukai perhatian.]]></item>
+        <item><![CDATA[Kucing Sphynx adalah kucing tanpa bulu dengan kulit yang lembut dan kepribadian yang ramah serta enerjik.]]></item>
+    </string-array>
+
+    <integer-array name="img_kucing">
+        <item>@drawable/anggora</item>
+        <item>@drawable/bengal</item>
+        <item>@drawable/kampung</item>
+        <item>@drawable/mainecoon</item>
+        <item>@drawable/munchkin</item>
+        <item>@drawable/persia</item>
+        <item>@drawable/ragdoll</item>
+        <item>@drawable/russianblue</item>
+        <item>@drawable/siam</item>
+        <item>@drawable/sphynx</item>
+    </integer-array>
+
+    <string-array name="data_anjing">
+        <item>Anjing Beagle</item>
+        <item>Anjing Bulldog</item>
+        <item>Anjing Kampung</item>
+        <item>Anjing Labrador</item>
+        <item>Anjing Pudel</item>
+        <item>Anjing Rotweller</item>
+        <item>Anjing Sepherd</item>
+        <item>Anjing Shorthead Pointer</item>
+        <item>Anjing Dachsun</item>
+        <item>Anjing Golder</item>
+    </string-array>
+
+    <string-array name="desc_anjing">
+        <item><![CDATA[Anjing Beagle, dengan telinga panjang dan ekor berkerut, adalah sahabat setia bagi keluarga yang mencari anjing yang ramah dan lincah. ]]></item>
+        <item><![CDATA[Anjing Bulldog, dengan tubuhnya yang kokoh dan wajah yang kuat, dikenal karena sifatnya yang setia dan tenang.]]></item>
+        <item><![CDATA[Anjing Kampung, dengan kecerdasan dan keuletannya, sering menjadi teman setia di rumah-rumah Indonesia.]]></item>
+        <item><![CDATA[Anjing Labrador, dengan kecerdasan dan kebaikannya, sering menjadi pilihan untuk pekerjaan penjagaan dan penyelamatan.]]></item>
+        <item><![CDATA[Anjing Pudel, dengan bulu keritingnya yang unik, dikenal sebagai anjing yang cerdas dan ramah.]]></item>
+        <item><![CDATA[Anjing Rottweiler, dengan kekuatan fisik dan loyalitasnya, sering dipilih sebagai anjing penjaga yang handal.]]></item>
+        <item><![CDATA[Anjing Shepherd, dengan insting penggembalaannya yang kuat, cocok untuk berbagai pekerjaan pengawasan dan perlindungan. ]]></item>
+        <item><![CDATA[Anjing Shorthaired Pointer, dengan kecepatan dan kecakapan dalam mencari, adalah pilihan populer untuk berburu.]]></item>
+        <item><![CDATA[Anjing Dachshund, dengan tubuhnya yang panjang dan pendek, memiliki semangat yang besar meskipun ukurannya kecil.]]></item>
+        <item><![CDATA[Anjing Golden, dengan kebaikan dan kepribadiannya yang ceria, sering menjadi anggota keluarga yang dicintai dan diandalkan.]]></item>
+    </string-array>
+
+    <integer-array name="img_anjing">
+        <item>@drawable/beagle</item>
+        <item>@drawable/bulldog</item>
+        <item>@drawable/kampunganjg</item>
+        <item>@drawable/labrador</item>
+        <item>@drawable/pudel</item>
+        <item>@drawable/rotweller</item>
+        <item>@drawable/sepherd</item>
+        <item>@drawable/shortheadpointer</item>
+        <item>@drawable/dachsund</item>
+        <item>@drawable/golden</item>
+    </integer-array>
+</resources>

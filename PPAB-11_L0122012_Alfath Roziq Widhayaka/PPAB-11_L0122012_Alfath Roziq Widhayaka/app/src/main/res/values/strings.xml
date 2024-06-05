@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PPAB-11_L0122012_Alfath Roziq Widhayaka</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="timer">Timer</string>
+    <string name="appsederhana">Aplikasi Sederhana Kalkulator dan Timer</string>
+    <string name="descImage">Description</string>
+
+    <!--  CALCULATOR  -->
+    <string name="number0">0</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="symC">C</string>
+    <string name="symbagi">/</string>
+    <string name="symkali">x</string>
+    <string name="symkurang">-</string>
+    <string name="symtambah">+</string>
+    <string name="symsama">=</string>
+    <string name="symkoma">.</string>
+
+    <!--  TIMER  -->
+    <string name="place_holder_time">00:00:00</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+</resources>

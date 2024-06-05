@@ -1,0 +1,73 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProfilPribadi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna Utama -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:windowBackground">@color/water</item>
+        <!-- Warna Kedua -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <!--  Style judul aplikasi  -->
+    <style name="position">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="position.headIndex">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/headland_one</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--  Style teks pada body page  -->
+    <style name="TextPost">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextPost.bodyStart">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/headland_one</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--  Style teks pada teks yang memiliki background  -->
+    <style name="textInRectangle">
+        <item name="android:background">@drawable/biohaldepan</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:justificationMode">inter_word</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--  Style button  -->
+    <style name="medium">
+        <item name="android:layout_width">275dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="medium.buttonButton">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--  Background gambar  -->
+    <style name="bgGambar">
+        <item name="android:src">@drawable/bg</item>
+    </style>
+
+    <style name="Theme.ProfilPribadi" parent="Base.Theme.ProfilPribadi" />
+
+</resources>

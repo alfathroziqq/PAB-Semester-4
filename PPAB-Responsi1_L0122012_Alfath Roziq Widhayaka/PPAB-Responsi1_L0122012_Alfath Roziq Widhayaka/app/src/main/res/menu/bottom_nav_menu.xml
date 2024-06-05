@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/college"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_faculty"
+        android:icon="@drawable/mortarboard"
+        android:title="@string/title_faculty" />
+
+    <item
+        android:id="@+id/navigation_facility"
+        android:icon="@drawable/facility"
+        android:title="@string/title_facility" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/avatar"
+        android:title="@string/title_profile" />
+
+</menu>

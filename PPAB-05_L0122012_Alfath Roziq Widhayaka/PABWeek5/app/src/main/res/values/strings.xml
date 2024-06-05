@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Daftar Merk Mobil</string>
+    <string name="carName">Nama Mobil</string>
+    <string name="description">Deskripsi Mobil</string>
+    <string name="desc1">Gambar Mobil 1</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="gambarMobil">Gambar Mobil</string>
+    <string name="europe">Eropa</string>
+    <string name="japan">Jepang</string>
+
+    <string-array name="dataMobilEurope">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Dodge</item>
+        <item>Koenigsegg</item>
+        <item>Lamborghini</item>
+        <item>Land Rover</item>
+        <item>Mercedes Benz</item>
+        <item>Porsche</item>
+        <item>Volkswagen</item>
+    </string-array>
+
+    <string-array name="dataDescEurope">
+        <item><![CDATA[Dengan kecanggihan dan prestise yang tak tertandingi, Audi melampaui batasan dengan inovasi yang memukau. Tiada tanding dalam kemewahan yang elegan dan performa yang luar biasa.
+        Setiap detik di dalam Audi adalah pengalaman yang menggetarkan, menghadirkan keindahan desain yang sempurna dan teknologi canggih yang mengubah perjalanan menjadi petualangan tak terlupakan.
+        Berani menghadirkan masa depan, Audi adalah simbol keunggulan yang abadi.]]></item>
+        <item><![CDATA[Bertenaga dan bergaya, BMW menjadi simbol prestise dan keunggulan dalam dunia otomotif. Ditenagai oleh inovasi terdepan, BMW menawarkan pengalaman mengemudi yang tak tertandingi.
+        Dengan desain yang elegan dan performa yang luar biasa, setiap BMW adalah perwujudan kecanggihan dan keunggulan teknologi. Menyatu dengan jalan, setiap detik di dalam sebuah BMW adalah
+        petualangan yang tak terlupakan. Rasakan kekuatan sejati dengan BMW.]]></item>
+        <item><![CDATA[Dodge, pionir dalam kelasnya. Menggabungkan kekuatan dan keandalan dalam setiap detilnya. Menembus batas dengan desain yang memukau dan performa yang tak tertandingi. Merek yang menandai keberanian dan keunggulan. Tiada tandingannya dalam menghadirkan pengalaman mengemudi yang memompa adrenalin. Dodge,tak hanya mobil, tapi gaya hidup yang menginspirasi. Bergabunglah dengan kami dalam petualangan tanpa batas.]]></item>
+        <item><![CDATA[Prestise tanpa tanding. Koenigsegg memimpin jalan dengan inovasi tak tertandingi dan keindahan yang tak terbantahkan.
+        Setiap modelnya adalah simbol keunggulan teknologi dan desain yang menggetarkan hati. Dari performa yang memukau hingga detail terkecil yang dikerjakan dengan cermat,
+        Koenigsegg menghadirkan pengalaman berkendara yang mempesona. Selamat datang di dunia di mana impian menjadi kenyataan.]]></item>
+        <item><![CDATA[Mobil Lamborghini adalah simbol kekuatan dan prestise dalam dunia otomotif. Dengan desain yang futuristik dan performa yang luar biasa, setiap Lamborghini mencerminkan kelasnya yang tak tertandingi. Mesin bertenaga tinggi, bodi yang aerodinamis, dan interior mewah menjadikan setiap pengalaman mengemudi sebagai pengalaman yang tak terlupakan. Lamborghini menggabungkan keindahan dan keganasan dalam satu paket yang memikat, menjadikannya ikon yang diidamkan oleh para penggemar mobil di seluruh dunia.]]></item>
+        <item><![CDATA[Land Rover, merek mobil legendaris asal Inggris, dikenal karena kemampuan off-road yang luar biasa dan desain yang ikonik. Mobil-mobilnya menggabungkan kenyamanan,
+        kehandalan, dan performa tinggi di segala medan. Dengan sejarah panjangnya dalam
+        industri otomotif, Land Rover tetap menjadi pilihan utama bagi para petualang dan penggemar mobil di seluruh dunia.]]></item>
+        <item><![CDATA[Mercedes-Benz, merek mobil mewah asal Jerman yang telah mengukir sejarah dalam industri otomotif. Dikenal karena kombinasi unggulannya dalam kualitas,
+        kenyamanan, dan teknologi inovatif. Setiap model Mercedes-Benz menampilkan desain elegan yang menggabungkan kekuatan dan keindahan, menawarkan pengalaman mengemudi yang luar biasa.
+        Dilengkapi dengan fitur-fitur canggih untuk keamanan dan kenyamanan, Mercedes-Benz menjadi simbol prestise dan kemewahan di seluruh dunia.]]></item>
+        <item><![CDATA[Porsche, merek legendaris yang menggabungkan keanggunan dan performa superior dalam setiap modelnya. Dikenal karena desain ikoniknya, mesin bertenaga, dan teknologi
+        inovatif, Porsche memberikan pengalaman mengemudi yang tak tertandingi. Dari mobil sport kompak hingga SUV mewah, setiap Porsche diciptakan dengan presisi Jerman yang tak tertandingi dan ciri khas keunggulan performa. Dengan warisan lebih dari 70 tahun,
+        Porsche tetap menjadi pilihan para penggemar otomotif yang mencari keunggulan dalam segala hal.]]></item>
+        <item><![CDATA[Volkswagen, sebuah ikon dalam industri otomotif global, dikenal karena kualitasnya yang tak tertandingi, desain inovatif, dan warisan yang kaya. Menggabungkan teknologi canggih dengan keandalan Jerman yang legendaris,
+        mobil Volkswagen menawarkan pengalaman mengemudi yang mengasyikkan dan nyaman. Dari hatchbacks yang energik hingga SUV yang tangguh, Volkswagen menawarkan beragam model yang memenuhi kebutuhan dan gaya hidup pelanggan. Dengan fokus pada
+        efisiensi bahan bakar dan keselamatan, Volkswagen tetap menjadi pilihan utama bagi para pengemudi yang cerdas dan berpengetahuan.]]></item>
+    </string-array>
+
+    <integer-array name="dataImageEurope">
+        <item>@drawable/audi</item>
+        <item>@drawable/bmw</item>
+        <item>@drawable/dodge</item>
+        <item>@drawable/koenis</item>
+        <item>@drawable/lambo</item>
+        <item>@drawable/landrover</item>
+        <item>@drawable/mercy</item>
+        <item>@drawable/porsche</item>
+        <item>@drawable/vw</item>
+    </integer-array>
+
+    <string-array name="dataMobilJapan">
+        <item>Honda</item>
+        <item>Lexus</item>
+        <item>Mazda</item>
+        <item>Mitsubishi</item>
+        <item>Subaru</item>
+        <item>Suzuki</item>
+        <item>Toyota</item>
+    </string-array>
+
+    <string-array name="dataDescJapan">
+        <item><![CDATA[Keunggulan Honda terpancar dalam setiap desain, teknologi, dan kinerja. Merek ini mencitrakan keandalan, inovasi, dan
+        kepuasan pelanggan. Dari kota hingga perjalanan jauh, Honda menjadi pilihan yang tak terbantahkan. Dibangun dengan ketahanan dan ketangguhan, setiap model Honda menghadirkan pengalaman
+        berkendara yang luar biasa. Menyatukan gaya, efisiensi, dan kenyamanan, Honda adalah simbol prestasi dalam setiap perjalanan.]]></item>
+        <item><![CDATA[Lexus, merek mobil mewah dari Jepang, menawarkan kombinasi sempurna antara kenyamanan, inovasi, dan kinerja yang luar biasa. Dikenal karena desain elegan,
+        teknologi canggih, dan tingkat kehandalan yang tinggi, setiap mobil Lexus mencerminkan keunggulan dalam rekayasa dan perhatian terhadap detail untuk memberikan pengalaman mengemudi yang istimewa.]]></item>
+        <item><![CDATA[Mazda, merek mobil Jepang yang inovatif, terkenal karena desain yang khas, performa dinamis, dan teknologi canggih. Mobil-mobil Mazda menawarkan pengalaman
+        mengemudi yang menyenangkan, dipadukan dengan efisiensi bahan bakar yang tinggi dan keandalan yang teruji. Dengan fokus pada kualitas dan keselamatan,
+        Mazda terus menjadi pilihan yang popular di berbagai pasar global.]]></item>
+        <item><![CDATA[Mitsubishi, sebuah merek mobil yang terkenal dengan inovasi dan keandalannya, menawarkan beragam kendaraan yang memenuhi kebutuhan konsumen modern.
+        Dikenal karena teknologi canggih, desain yang stylish, dan performa yang handal, setiap model Mitsubishi menyajikan kombinasi yang sempurna antara kenyamanan, efisiensi bahan bakar, dan keamanan. Dari SUV tangguh hingga hatchback yang dinamis, Mitsubishi terus memimpin
+        dalam industri otomotif dengan visi yang inovatif dan komitmen terhadap kualitas yang tak tertandingi.]]></item>
+        <item><![CDATA[Subaru adalah merek mobil Jepang yang dikenal dengan inovasi dan performa yang handal. Dikenal karena teknologi canggih dan konstruksi yang kokoh, Subaru menawarkan beragam model yang cocok untuk berbagai gaya hidup,
+        mulai dari sedan hingga SUV. Desainnya yang elegan dipadukan dengan kinerja mesin bertenaga dan sistem penggerak semua roda (AWD) membuat
+        Subaru menjadi pilihan utama bagi pecinta petualangan dan pengemudi yang membutuhkan kendaraan yang tangguh dan andal.]]></item>
+        <item><![CDATA[Suzuki, seorang pemimpin dalam industri otomotif, menawarkan keandalan, kinerja, dan nilai yang tak tertandingi dalam setiap modelnya. Dikenal karena desainnya yang inovatif, Suzuki menghadirkan beragam mobil yang cocok untuk
+        kebutuhan Anda, mulai dari kendaraan kota hingga SUV tangguh.
+        Dibangun dengan teknologi canggih dan perhatian terhadap detail, setiap mobil Suzuki menawarkan pengalaman mengemudi yang menyenangkan dan memuaskan.]]></item>
+        <item><![CDATA[Toyota, sebuah ikon dalam industri otomotif global, menghadirkan keandalan, inovasi, dan kualitas yang tak tertandingi. Dikenal dengan desain yang elegan,
+        teknologi canggih, dan performa yang tangguh, mobil Toyota memberikan pengalaman mengemudi yang luar biasa. Dari mobil keluarga yang nyaman hingga kendaraan penjelajah yang handal, Toyota menyediakan beragam pilihan yang memenuhi kebutuhan pelanggan.
+        Dibangun dengan standar keamanan tertinggi, mobil Toyota menjadi pilihan utama bagi jutaan pengemudi di seluruh dunia.]]></item>
+        </string-array>
+
+    <integer-array name="dataImageJapan">
+        <item>@drawable/honda</item>
+        <item>@drawable/lexus</item>
+        <item>@drawable/mazda</item>
+        <item>@drawable/mitsu</item>
+        <item>@drawable/subaru</item>
+        <item>@drawable/suzuki</item>
+        <item>@drawable/toyota</item>
+    </integer-array>
+</resources>

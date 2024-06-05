@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="16dp"
+    android:background="@color/black"
+    tools:context=".KalkulatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:text="@string/calculator"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number0"
+            android:textSize="70sp"
+            android:textColor="@color/white"
+            android:gravity="end"
+            android:layout_marginBottom="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_clear"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="2"
+                android:text="@string/symC"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_clear"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_divide"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/symbagi"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_operation"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_multiply"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/symkali"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/button_operation"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_7"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number7"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_8"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number8"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_9"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number9"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_subtract"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/symkurang"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_operation"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_4"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number4"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_5"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number5"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_6"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number6"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_add"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/symtambah"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_operation"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number1"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number2"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_3"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/number3"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_dot"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/symkoma"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_operation"
+                android:layout_margin="4dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_0"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="3"
+                android:text="@string/number0"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_number"
+                android:layout_margin="4dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_equals"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/symsama"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_operation"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
